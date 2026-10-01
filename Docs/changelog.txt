@@ -1,0 +1,79 @@
+############################################################
+
+Basix Change Log
+
+############################################################
+
+------------------------ V1.12 ------------------------------
+CubeCart 6.4.3 Compatibility Release
+- Max Quantity Support (Requires CC 6.4.3)
+- Scroll To Top Fix (Ajax Loading Products)
+- Gravatar Ajax (Let the browser handle it) (Requires CC 6.4.3)
+- Sale Items box Fix (Requires CC 6.4.3)
+
+------------------------ V1.11 ------------------------------
+- Checkout Address Form Fix
+- Minor Layout Tweek for Mobile/Phone/Email info at checkout
+- Fixed empty Alert box on Product page when in catalogue mode
+
+------------------------ V1.10 ------------------------------
+- Minimum Quantity Fix (Requires CC 6.4.1)
+- What3Words Support Added (Requires CC 6.4.1)
+- Removed Option Description In Favor of Option Name during checkout.
+- SEO EXT Support added for Login, Register, Search Links (Requires CC 6.4.1)
+- Other Product Options types Support
+- Prevent Add To Cart Cache
+- Absolute Price Fix
+- Media Stream Support (Requires CC 6.4.0)
+- Add "Digital Download" ref in Spec Table
+- Update Cookie JS File
+
+------------------------ V1.09 ------------------------------
+- Fixed auto submit on estimate shipping modal
+
+------------------------ V1.08 ------------------------------
+- Improved Product Schema : 7 additional options added
+- Hide Delivery Address if digital products
+- Added login button during checkout
+- Show Terms & Conditions checkbox with alternate checkouts
+- Allow period in phone numbers
+
+------------------------ V1.07 ------------------------------
++ Fixed issue with navigation when cache is enabled affecting the account menu 
+
+
+------------------------ V1.06 ------------------------------
++ Fixed issue with skin style changing when cache enabled
+
+------------------------ V1.05 ------------------------------
++ Compatibility for CubeCart V6.2.7 / V6.2.8
+  - #2413 - Added optional phone number field on contact form
+
+
+------------------------ V1.04 ------------------------------
++ Compatibility for CubeCart V6.2.6
+  - #2291 - Fixed on sale items display for quantity discounts
+  - #2292 - Delete search history on new search
+  - #2359 - JS Fix for State object
+  - #2357 - Estimated shipping to respect state states
+  - #2370 - Killed meta keywords
+
+------------------------ V1.03 ------------------------------
++ Fixed issue with Google reCaptcha V2 Invisible not submitting contact us form
+
+------------------------ V1.02 ------------------------------
++ Disabled touch support on BX Slider - Should Fix Unclikable Link
+- Removed schema data from review score when no reviews (solves errors flagged in google tools)
++ improved pagination - stopped products jumping after loading more
++ fixed bug if default layout is grid
+
+------------------------ V1.01 ------------------------------
++ Compatibility for CubeCart V6.2.3
+  - #2213 Removed EU Cookie Auto Accept
+  - #2244 Updated language selection to new method with images
+  - #2226 Updated gateway selection to stop auto submit
+  - #2226 Added Support for shipping checkboxes
+
+
+------------------------ V1.00 ------------------------------
+Initial Release

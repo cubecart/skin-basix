@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+	<skin version="1.12">
+		<info>
+			<uid>nitefoxskin001</uid>
+			<type>skin</type>
+			<category>skin</category>
+			<name><![CDATA[basix]]></name>
+			<original_name><![CDATA[basix]]></original_name>
+			<display><![CDATA[Basix]]></display>
+			<description><![CDATA[Basix is a clean, lightweight Bootstrap skin with 7 styles, built for speed and simplicity across all devices.]]></description>
+			<version>2.11</version>
+			<minVersion>6.0.0</minVersion>
+			<maxVersion>6.*.*</maxVersion>
+			<creator>CubeCart</creator>
+			<homepage>http://www.cubecart.com</homepage>
+			<layout_type>responsive</layout_type>
+			<framework>bootstrap</framework>
+			<csrf>true</csrf>
+			<newsletter_recaptcha>true</newsletter_recaptcha>
+		</info>
+		<layout>
+			<products>
+				<perpage amount="6" />
+				<perpage default="true" amount="12" />
+				<perpage amount="24" />
+				<perpage amount="48" />
+				<perpage amount="96" />
+			</products>
+		</layout>
+		<styles>
+			<style images="false" default="true">
+			<!-- images: TRUE tells the template system that this style has its own image folder. FALSE would use the contents in the root of the images folder. For example with this as false images/image.jpg vs images/default/image.jpg if set to true -->
+				<directory>default</directory>
+				<name><![CDATA[Default]]></name>
+				<description><![CDATA[Default Subtheme]]></description>
+				<default />
+			</style>
+	
+			<style images="false">
+				<directory>style01mint</directory>
+				<name><![CDATA[Style 1 - Mint]]></name>
+				<description><![CDATA[Mint style]]></description>
+			</style>
+	
+			<style images="false">
+				<directory>style01pink</directory>
+				<name><![CDATA[Style 1 - Pink]]></name>
+				<description><![CDATA[Pink style]]></description>
+			</style>
+	
+			<style images="false">
+				<directory>style01blue</directory>
+				<name><![CDATA[Style 1 - Blue]]></name>
+				<description><![CDATA[Blue style]]></description>
+			</style>
+			
+			<style images="false">
+				<directory>style02red</directory>
+				<name><![CDATA[Style 2 - Red]]></name>
+				<description><![CDATA[Red and Grey]]></description>
+			</style>
+
+			<style images="false">
+				<directory>style02blue</directory>
+				<name><![CDATA[Style 2 - Blue]]></name>
+				<description><![CDATA[Blue and Grey]]></description>
+			</style>
+			<style images="false">
+				<directory>style02orange</directory>
+				<name><![CDATA[Style 2 - Orange]]></name>
+				<description><![CDATA[Orange and Grey]]></description>
+			</style>
+			<style images="false">
+				<directory>style01purple</directory>
+				<name><![CDATA[Style 1 - Purple]]></name>
+				<description><![CDATA[Purple style]]></description>
+			</style>	
+		</styles>
+		<images>
+			<image reference="thumbnail" maximum="190" quality="80" default="noimage.png" />
+			<image reference="category" maximum="800" quality="80" default="" /><!-- Doesnt need a default -->
+			<image reference="subcategory" maximum="105" quality="80" default="noimage.png" />
+			<image reference="gallery" maximum="50" quality="80" default="noimage.png" />
+			<image reference="checkout" maximum="50" quality="80" default="noimage.png" />
+			<image reference="normal" maximum="300" quality="80" default="noimage.png" />
+			<image reference="enlarge" maximum="600" quality="80" default="" /><!-- Doesnt need a default -->
+			<image reference="tiny" maximum="30" quality="80" default="noimage.png" />
+			<image reference="small" maximum="200" quality="80" default="noimage.png" />
+			<image reference="medium" maximum="500" quality="80" default="noimage.png" />
+			<image reference="large" maximum="600" quality="80" default="" /><!-- Doesnt need a default -->
+		</images>
+		<!-- Use this to add custom variables into the skin which can be found in the smarty SKIN_CUSTOM array -->
+		<custom>
+			<recaptcha_badge_position>bottomleft</recaptcha_badge_position><!-- Invisible Recaptcha Badge Position: bottomright, bottomleft or inline -->
+		</custom>
+	</skin>
