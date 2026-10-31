@@ -8,7 +8,7 @@
 			<original_name><![CDATA[basix]]></original_name>
 			<display><![CDATA[Basix]]></display>
 			<description><![CDATA[Basix is a clean, lightweight Bootstrap skin with 7 styles, built for speed and simplicity across all devices.]]></description>
-			<version>2.12</version>
+			<version>2.13</version>
 			<minVersion>6.0.0</minVersion>
 			<maxVersion>6.*.*</maxVersion>
 			<creator>CubeCart</creator>
