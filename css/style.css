@@ -2245,3 +2245,12 @@ Min Quantity DropUp
 .min-qty-dropup .qty-input {
 	margin: 5px 0;
 }
+
+/* Descriptions saved before 6.7.0 carry an inline width and height: let the height follow the width the screen allows. */
+#product_info img[style*="height"]:not([style*="object-fit"]),
+#collapseInfo img[style*="height"]:not([style*="object-fit"]),
+#content_homepage img[style*="height"]:not([style*="object-fit"]),
+.cat-desc img[style*="height"]:not([style*="object-fit"]),
+.cleafix img[style*="height"]:not([style*="object-fit"]) {
+  height: auto !important;
+}
